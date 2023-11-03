@@ -1,8 +1,6 @@
 export as namespace FontData;
 
-export * from "./opentype-features.js";
-export * from "./opentype-language-tags.js";
-export * from "./opentype-script-tags.js";
-export * from "./unicode.js";
-export * from "./unicode-blocks.js";
-export * from "./variation-axes.js";
+export * from "./cff/index.js";
+export * from "./opentype/index.js";
+export * from "./postscript/index.js";
+export * from "./unicode/index.js";

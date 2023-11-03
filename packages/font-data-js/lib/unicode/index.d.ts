@@ -1,3 +1,5 @@
+export * from "./unicode-blocks.js";
+
 /**
  * The Unicode code for the notdef glyph.
  */
