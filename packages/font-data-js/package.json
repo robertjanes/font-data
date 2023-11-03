@@ -1,0 +1,12 @@
+{
+  "name": "font-data",
+  "version": "0.1.0",
+  "description": "Useful data concerning fonts, OpenType features, Unicode etc.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Janes",
+  "license": "ISC"
+}
