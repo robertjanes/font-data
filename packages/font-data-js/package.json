@@ -1,6 +1,6 @@
 {
   "name": "@robertjanes/font-data",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Useful data concerning fonts, OpenType features, Unicode, PostScript, WOFF etc.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

@@ -1,6 +1,6 @@
 export const woff2HeaderSignatures = [0x774f4632, 0x74746366] as const;
 
-export type WOFF2HeaderSignature = (typeof woff2KnownTableTags)[number];
+export type WOFF2HeaderSignature = (typeof woff2HeaderSignatures)[number];
 
 // Source: https://www.w3.org/TR/WOFF2/#table_dir_format
 export const woff2KnownTableTags = [

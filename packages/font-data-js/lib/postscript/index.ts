@@ -259,3 +259,62 @@ export const postscriptGlyphNames = [
   "ccaron",
   "dcroat",
 ] as const;
+
+/**
+ * Type 2 Charstring Format Operators
+ *
+ * https://adobe-type-tools.github.io/font-tech-notes/pdfs/5177.Type2.pdf
+ */
+export const Type2CharstringOperators = {
+  // 1-byte operators
+  1: "hstem",
+  3: "vstem",
+  4: "vmoveto",
+  5: "rlineto",
+  6: "hlineto",
+  7: "vlineto",
+  8: "rrcurveto",
+  10: "callsubr",
+  11: "return",
+  14: "endchar",
+  18: "hstemhm",
+  19: "hintmask",
+  20: "cntrmask",
+  21: "rmoveto",
+  22: "hmoveto",
+  23: "vstemhm",
+  24: "rcurveline",
+  25: "rlinecurve",
+  26: "vvcurveto",
+  27: "hhcurveto",
+  // First byte of a 3-byte sequence specifying a signed integer value (following two bytes are an int16).
+  28: "shortint",
+  29: "callgsubr",
+  30: "vhcurveto",
+  31: "hvcurveto",
+  // 2-byte operators
+  1203: "and",
+  1204: "or",
+  1205: "not",
+  1209: "abs",
+  1210: "add",
+  1211: "sub",
+  1212: "div",
+  1214: "neg",
+  1215: "eq",
+  1218: "drop",
+  1220: "put",
+  1221: "get",
+  1222: "ifelse",
+  1223: "random",
+  1224: "mul",
+  1226: "sqrt",
+  1227: "dup",
+  1228: "exch",
+  1229: "index",
+  1230: "roll",
+  1234: "hflex",
+  1235: "flex",
+  1236: "hflex1",
+  1237: "flex1",
+} as const;
