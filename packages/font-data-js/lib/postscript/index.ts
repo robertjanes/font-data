@@ -258,4 +258,4 @@ export const postscriptGlyphNames = [
   "Ccaron",
   "ccaron",
   "dcroat",
-];
+] as const;

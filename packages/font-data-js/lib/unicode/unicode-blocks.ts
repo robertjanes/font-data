@@ -326,4 +326,4 @@ export const unicodeBlocks = [
   ["Variation Selectors Supplement", [917760, 917999]],
   ["Supplementary Private Use Area-A", [983040, 1048575]],
   ["Supplementary Private Use Area-B", [1048576, 1114111]],
-];
+] as const;

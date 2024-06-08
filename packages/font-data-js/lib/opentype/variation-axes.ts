@@ -29,7 +29,7 @@ export const designVariationAxes = {
     max: 1000,
     default: 0,
   },
-};
+} as const;
 
 export const designVariationAxisTags = {
   ital: "Italic",
@@ -37,7 +37,7 @@ export const designVariationAxisTags = {
   slnt: "Slant",
   wdth: "Width",
   wght: "Weight",
-};
+} as const;
 
 export const designVariationAxisRanges = {
   ital: [0, 1],
@@ -45,4 +45,4 @@ export const designVariationAxisRanges = {
   slnt: [-90, 90],
   wdth: [0, 0xffff],
   wght: [1, 1000],
-};
+} as const;

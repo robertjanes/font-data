@@ -172,4 +172,4 @@ export const opentypeScriptTags = {
   yezi: "Yezidi",
   "yi  ": "Yi",
   zanb: "Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)",
-};
+} as const;

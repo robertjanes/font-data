@@ -1,15 +1,11 @@
 export * from "./unicode-blocks.js";
 
-/**
- * The Unicode code for the notdef glyph.
- * @type {number}
- */
-export const unicodeNotdefCode = 65535;
+export const unicodeNotdefCode = 65535 as const;
 
 export const unicodeControlCodeRanges = [
   [0, 31], // C0 controls
   [127, 159], // C0 controls + C1 controls
-];
+] as const;
 
 export const unicodeWhitespaceCodes = [
   32, // space
@@ -25,4 +21,4 @@ export const unicodeWhitespaceCodes = [
   8200, // Punctuation Space
   8201, // Thin Space
   8202, // Hair Space
-];
+] as const;

@@ -1,4 +1,4 @@
-export const woff2HeaderSignatures = [0x774f4632, 0x74746366];
+export const woff2HeaderSignatures = [0x774f4632, 0x74746366] as const;
 
 export type WOFF2HeaderSignature = (typeof woff2KnownTableTags)[number];
 

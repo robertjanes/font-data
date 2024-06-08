@@ -633,4 +633,4 @@ export const opentypeLanguageTags = {
   "ZND ": "Zande",
   "ZUL ": "Zulu",
   "ZZA ": "Zazaki",
-};
+} as const;

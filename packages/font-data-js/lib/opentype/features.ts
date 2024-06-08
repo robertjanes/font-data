@@ -238,4 +238,4 @@ export const opentypeFeatures = {
   vrt2: "Vertical Alternates and Rotation",
   vrtr: "Vertical Alternates for Rotation",
   zero: "Slashed Zero",
-};
+} as const;

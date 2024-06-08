@@ -391,4 +391,4 @@ export const cffStandardStrings = [
   "Regular",
   "Roman",
   "Semibold",
-];
+] as const;
