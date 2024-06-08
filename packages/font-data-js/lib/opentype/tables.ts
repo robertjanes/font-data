@@ -46,4 +46,6 @@ export const opentypeTableTags = [
   "vmtx",
   "VORG",
   "VVAR",
-];
+] as const;
+
+export type OpenTypeTableTag = (typeof opentypeTableTags)[number];

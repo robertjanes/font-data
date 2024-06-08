@@ -1,15 +1,29 @@
 {
   "name": "@robertjanes/font-data",
-  "version": "0.1.10",
-  "description": "Useful data concerning fonts, OpenType features, Unicode etc.",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "type": "module",
+  "version": "0.1.12",
+  "description": "Useful data concerning fonts, OpenType features, Unicode, PostScript, WOFF etc.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup lib/index.ts --format cjs,esm --dts --clean",
+    "watch": "npm run build -- --watch src",
+    "lint": "tsc"
   },
   "author": "Robert Janes",
   "license": "ISC",
   "private": false,
-  "sideEffects": false
+  "sideEffects": false,
+  "devDependencies": {
+    "prettier": "^3.3.1",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
 }

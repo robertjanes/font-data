@@ -1,5 +1,7 @@
 export const woff2HeaderSignatures = [0x774f4632, 0x74746366];
 
+export type WOFF2HeaderSignature = (typeof woff2KnownTableTags)[number];
+
 // Source: https://www.w3.org/TR/WOFF2/#table_dir_format
 export const woff2KnownTableTags = [
   "cmap",
@@ -65,4 +67,6 @@ export const woff2KnownTableTags = [
   "Gloc",
   "Feat",
   "Sill",
-];
+] as const;
+
+export type WOFF2KnownTableTag = (typeof woff2KnownTableTags)[number];
