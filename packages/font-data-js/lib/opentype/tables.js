@@ -1,4 +1,4 @@
-export const tableTags = [
+export const opentypeTableTags = [
   "avar",
   "BASE",
   "CBDT",

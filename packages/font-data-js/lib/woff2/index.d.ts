@@ -1,6 +1,10 @@
-export const WOFF2HeaderSignature: 0x774f4632 | 0x74746366;
+export type WOFF2HeaderSignature = 0x774f4632 | 0x74746366;
 
-export const WOFF2KnownTableTag:
+export const woff2HeaderSignatures: WOFF2HeaderSignature[];
+
+export const woff2KnownTableTags: WOFF2KnownTableTag[];
+
+export type WOFF2KnownTableTag =
   | "cmap"
   | "head"
   | "hhea"

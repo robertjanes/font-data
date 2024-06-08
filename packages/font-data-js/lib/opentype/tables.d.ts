@@ -1,4 +1,6 @@
-export const TableTag:
+export const opentypeTableTags: OpenTypeTableTag[];
+
+export type OpenTypeTableTag =
   | "avar"
   | "BASE"
   | "CBDT"

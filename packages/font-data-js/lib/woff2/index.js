@@ -1,7 +1,7 @@
-export const Woff2HeaderSignatures = [0x774f4632, 0x74746366];
+export const woff2HeaderSignatures = [0x774f4632, 0x74746366];
 
 // Source: https://www.w3.org/TR/WOFF2/#table_dir_format
-export const Woff2KnownTableTags = [
+export const woff2KnownTableTags = [
   "cmap",
   "head",
   "hhea",

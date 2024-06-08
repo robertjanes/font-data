@@ -1,6 +1,6 @@
 {
   "name": "@robertjanes/font-data",
-  "version": "0.1.5",
+  "version": "0.1.10",
   "description": "Useful data concerning fonts, OpenType features, Unicode etc.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
