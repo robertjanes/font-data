@@ -118,6 +118,7 @@ export const opentypeLanguageTags = {
   "DAX ": "Dayi",
   "DCR ": "Woods Cree",
   "DEU ": "German",
+  DFLT: "Default",
   "DGO ": "Dogri (individual language)",
   "DGR ": "Dogri (macrolanguage)",
   "DHG ": "Dhangu",
