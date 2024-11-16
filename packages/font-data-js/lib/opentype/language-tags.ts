@@ -1,4 +1,5 @@
 export const opentypeLanguageTags = {
+  "AAQ ": "Eastern Abenaki",
   "ABA ": "Abaza",
   "ABK ": "Abkhazian",
   "ACH ": "Acholi",

@@ -1,3 +1,4 @@
+// https://learn.microsoft.com/en-us/typography/opentype/spec/scripttags
 export const opentypeScriptTags = {
   adlm: "Adlam",
   ahom: "Ahom",
