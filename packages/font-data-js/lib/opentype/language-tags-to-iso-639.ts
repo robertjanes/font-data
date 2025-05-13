@@ -82,7 +82,11 @@ export const opentypeLanguageTagsToISO639 = {
   "LTZ ": "ltz", // Luxembourgish
   "LUB ": "lub", // Luba-Katanga
   "LUG ": "lug", // Ganda
-  "MAC ": "mkd", // Macedonian
+  "LVI ": "lav", // Latvian
+  "MAD ": "mad", // Madura
+  "MAG ": "mag", // Magahi
+  "MAH ": "mah", // Marshallese
+  "MKD ": "mkd", // Macedonian
   "MAI ": "mai", // Maithili
   "MAL ": "mal", // Malayalam
   "MLG ": "mlg", // Malagasy
