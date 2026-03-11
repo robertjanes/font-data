@@ -1,0 +1,683 @@
+// https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+export const opentypeLanguageTagsToBCP47 = {
+  "AAQ ": "aaq", // Eastern Abenaki
+  "ABA ": "abq", // Abaza
+  "ABK ": "ab", // Abkhazian
+  "ACH ": "ach", // Acholi/Acoli
+  "ACR ": "acr", // Achi
+  "ACY ": "acy", // Cypriot Arabic
+  "ADY ": "ady", // Adyghe
+  "AFK ": "af", // Afrikaans
+  "AFR ": "aar", // Afar
+  "AGW ": "ahg", // Agaw
+  "AIO ": "aio", // Aiton
+  "AKA ": "aka", // Akan
+  "AKB ": "akb", // Batak Angkola
+  "ALS ": "gsw", // Alsatian
+  "ALT ": "alt", // Altai, also alt
+  "AMH ": "amh", // Amharic
+  "ANG ": "ang", // Anglo-Saxon
+  APPH: "fonnapa", // Phonetic transcription—Americanist conventions, Cf. BCP 47 variant subtag “fonnapa” (see https://www.iana.org/assignments/lang-subtags-templates/fonnapa.txt)
+  "ARA ": "ar", // Arabic
+  "ARG ": "arg", // Aragonese
+  "ARI ": "aiw", // Aari
+  "ARK ": "mhv", // Rakhine, also rmz, rki
+  "ASM ": "asm", // Assamese
+  "AST ": "ast", // Asturian
+  "ATH ": "aht", // Athapascan, also apa, apk, apj, apl, apm, apw, ath, bea, sek, bcr, caf, chp, clc, coq, crx, ctc, den, dgr, gce, gwi, haa, hoi, hup, ing, kkz, koy, ktw, kuu, mvb, nav, qwt, scs, srs, taa, tau, tcb, tce, tfn, tgx, tht, tol, ttm, tuu, txc, wlk, xup, xsl
+  "ATS ": "ats", // Gros Ventre (Atsina)
+  "AVN ": "avn", // Avatime
+  "AVR ": "ava", // Avar
+  "AWA ": "awa", // Awadhi
+  "AYM ": "aym", // Aymara
+  "AZB ": "azb", // Torki
+  "AZE ": "az", // Azerbaijani
+  "BAD ": "bfq", // Badaga
+  BAD0: "bad", // Banda, also bbp, bfl, bjo, bpd, bqk, gox, kuw, liy, lna, lnl, mnh, nue, nuu, tor, yaj, zmz
+  "BAG ": "bfy", // Baghelkhandi
+  "BAL ": "krc", // Balkar
+  "BAN ": "ban", // Balinese
+  "BAR ": "bar", // Bavarian
+  "BAU ": "bci", // Baulé
+  "BBC ": "bbc", // Batak Toba
+  "BBR ": "ber", // Berber
+  "BCH ": "bcq", // Bench
+  "BCR ": "", // Bible Cree
+  "BDC ": "bdc", // Emberá-Baudó
+  "BDY ": "bdy", // Bandjalang
+  "BEL ": "be", // Belarusian
+  "BEM ": "bem", // Bemba
+  "BEN ": "ben", // Bangla
+  "BGC ": "bgc", // Haryanvi
+  "BGQ ": "bgq", // Bagri
+  "BGR ": "bg", // Bulgarian
+  "BHI ": "bhi", // Bhili	, bhb
+  "BHO ": "bho", // Bhojpuri
+  "BIK ": "bik", // Bikol	, bhk, bcl, bto, cts, bln, fbl, lbl, rbl, ubl
+  "BIL ": "byn", // Bilen
+  "BIS ": "bis", // Bislama
+  "BJJ ": "bjj", // Kanauji
+  "BKF ": "bla", // Blackfoot
+  "BLI ": "bal", // Baluchi
+  "BLK ": "blk", // Pa’o Karen
+  "BLN ": "bjt", // Balante	, ble
+  "BLT ": "bft", // Balti
+  "BMB ": "bam", // Bambara (Bamanankan)
+  "BML ": "bai", // Bamileke	, bbj, bko, byv, fmp, jgo, nla, nnh, nnz, nwe, xmg, ybb
+  "BOS ": "bs", // Bosnian
+  "BPY ": "bpy", // Bishnupriya Manipuri
+  "BRE ": "br", // Breton
+  "BRH ": "brh", // Brahui
+  "BRI ": "bra", // Braj Bhasha
+  "BRM ": "my", // Burmese
+  "BRX ": "brx", // Bodo
+  "BSH ": "bak", // Bashkir
+  "BSK ": "bsk", // Burushaski
+  "BTD ": "btd", // Batak Dairi (Pakpak)
+  "BTI ": "btb", // Beti	, beb, bum, bxp, eto, ewo, mct
+  "BTK ": "akb", // Batak languages	, bbc, btd, btk, btm, bts, btx, btz
+  "BTM ": "btm", // Batak Mandailing
+  "BTS ": "bts", // Batak Simalungun
+  "BTX ": "btx", // Batak Karo
+  "BTZ ": "btz", // Batak Alas-Kluet
+  "BUG ": "bug", // Bugis
+  "BYV ": "byv", // Medumba
+  "CAK ": "cak", // Kaqchikel
+  "CAT ": "ca", // Catalan
+  "CAY ": "cay", // Cayuga
+  "CBG ": "cbg", // Chimila
+  "CBK ": "cbk", // Zamboanga Chavacano
+  CCHN: "cco", // Chinantec, chj, chq, chz, cle, cnl, cnt, cpa, csa, cso, cte, ctl, cuc, cvn
+  "CEB ": "ceb", // Cebuano
+  "CGG ": "cgg", // Chiga
+  "CHA ": "cha", // Chamorro
+  "CHE ": "che", // Chechen
+  "CHG ": "sgw", // Chaha Gurage
+  "CHH ": "hne", // Chattisgarhi
+  "CHI ": "nya", // Chichewa (Chewa, Nyanja)
+  "CHK ": "ckt", // Chukchi
+  CHK0: "chk", // Chuukese
+  "CHO ": "cho", // Choctaw
+  "CHP ": "chp", // Chipewyan
+  "CHR ": "chr", // Cherokee
+  "CHU ": "chv", // Chuvash
+  "CHY ": "chy", // Cheyenne
+  "CJA ": "cja", // Western Cham
+  "CJM ": "cjm", // Eastern Cham
+  "CMI ": "cmi", // Emberá-Chamí
+  "CMR ": "swb", // Comorian, wlc, wni, zdj
+  "COO ": "coo", // Comox
+  "COP ": "cop", // Coptic
+  "COR ": "kw", // Cornish
+  "COS ": "co", // Corsican
+  "CPP ": "abs", // Creoles, acf, afs, aig, aoa, bah, bew, bis, bjs, bpl, bpq, brc, bxo, bzj, bzk, cbk, ccl, ccm, chn, cks, cpe, cpf, cpi, cpp, cri, crp, crs, dcr, dep, djk, fab, fng, fpe, gac, gcf, gcl, gcr, gib, goq, gpe, gul, gyn, hat, hca, hmo, hwc, icr, idb, ihb, jam, jvd, kcn, kea, kmv, kri, kww, lir, lou, lrt, max, mbf, mcm, mfe, mfp, mkn, mod, msi, mud, mzs, nag, nef, ngm, njt, onx, oor, pap, pcm, pea, pey, pga, pih, pis, pln, pml, pmy, pov, pre, rcf, rop, scf, sci, skw, srm, srn, sta, svc, tas, tch, tcs, tgh, tmg, tpi, trf, tvy, uln, vic, vkp, wes, xmm, ycr
+  "CRE ": "cr", // Cree
+  "CRR ": "crx", // Carrier, caf
+  "CRT ": "crh", // Crimean Tatar
+  "CSB ": "csb", // Kashubian
+  "CSL ": "chu", // Church Slavonic
+  "CSY ": "cs", // Czech
+  "CTG ": "ctg", // Chittagonian
+  "CTO ": "cto", // Emberá-Catío
+  "CTT ": "ctt", // Wayanad Chetti
+  "CUK ": "cuk", // San Blas Kuna
+  "DAG ": "dag", // Dagbani
+  "DAN ": "da", // Danish
+  "DAR ": "dar", // Dargwa
+  "DAX ": "dax", // Dayi
+  "DCR ": "cwd", // Woods Cree
+  "DEU ": "de", // German
+  "DGO ": "dgo", // Dogri (individual language)
+  "DGR ": "doi", // Dogri (macrolanguage)
+  "DHG ": "dhg", // Dhangu
+  "DHV ": "div", // Divehi (Dhivehi, Maldivian)	deprecated)	div
+  "DIQ ": "diq", // Dimli
+  "DIV ": "div", // Divehi (Dhivehi, Maldivian)
+  "DJR ": "dje", // Zarma
+  DJR0: "djr", // Djambarrpuyngu
+  "DNG ": "ada", // Dangme
+  "DNJ ": "dnj", // Dan
+  "DNK ": "din", // Dinka
+  "DRI ": "prs", // Dari
+  "DUJ ": "duj", // Dhuwal	, dwu, dwy
+  "DUN ": "dng", // Dungan
+  "DZN ": "dzo", // Dzongkha
+  "EBI ": "igb", // Ebira
+  "ECR ": "crj", // Eastern Cree	, crl
+  "EDO ": "bin", // Edo
+  "EFI ": "efi", // Efik
+  "ELL ": "el", // Greek
+  "EMK ": "emk", // Eastern Maninkakan
+  "EMP ": "emp", // Northern Emberá
+  "ENG ": "en", // English
+  "ERZ ": "myv", // Erzya
+  "ESP ": "es", // Spanish
+  "ESU ": "esu", // Central Yupik
+  "ETI ": "et", // Estonian
+  "EUQ ": "eu", // Basque
+  "EVK ": "evn", // Evenki
+  "EVN ": "eve", // Even
+  "EWE ": "ewe", // Ewe
+  "FAN ": "acf", // French Antillean
+  FAN0: "fan", // Fang
+  "FAR ": "fa", // Persian
+  "FAT ": "fat", // Fanti
+  "FIN ": "fi", // Finnish
+  "FJI ": "fij", // Fijian
+  "FLE ": "nl", // Dutch (Flemish)
+  "FMP ": "fmp", // Fe’fe’
+  "FNE ": "enf", // Forest Enets
+  "FON ": "fon", // Fon
+  "FOS ": "fo", // Faroese
+  "FRA ": "fr", // French
+  "FRC ": "frc", // Cajun French
+  "FRI ": "fry", // Frisian
+  "FRL ": "fur", // Friulian
+  "FRP ": "frp", // Arpitan
+  "FTA ": "fuf", // Futa
+  "FUL ": "ful", // Fulah
+  "FUV ": "fuv", // Nigerian Fulfulde
+  "GAD ": "gaa", // Ga
+  "GAE ": "gla", // Scottish Gaelic
+  "GAG ": "gag", // Gagauz
+  "GAL ": "gl", // Galician
+  "GAR ": "", // Garshuni
+  "GAW ": "gbm", // Garhwali
+  "GEZ ": "gez", // Geez
+  "GIH ": "gih", // Githabul
+  "GIL ": "niv", // Gilyak
+  GIL0: "gil", // Kiribati (Gilbertese)
+  "GKP ": "gkp", // Kpelle (Guinea)
+  "GLK ": "glk", // Gilaki
+  "GMZ ": "guk", // Gumuz
+  "GNN ": "gnn", // Gumatj
+  "GOG ": "gog", // Gogo
+  "GON ": "gon", // Gondi
+  "GRN ": "kl", // Greenlandic
+  "GRO ": "grt", // Garo
+  "GUA ": "grn", // Guarani
+  "GUC ": "guc", // Wayuu
+  "GUF ": "guf", // Gupapuyngu
+  "GUJ ": "guj", // Gujarati
+  "GUZ ": "guz", // Gusii
+  "HAI ": "hat", // Haitian (Haitian Creole)
+  HAI0: "hai", // Haida	, hax, hdn
+  "HAL ": "cfm", // Halam (Falam Chin)
+  "HAR ": "hoj", // Harauti
+  "HAU ": "hau", // Hausa
+  "HAW ": "haw", // Hawaiian
+  "HAY ": "hay", // Haya
+  "HAZ ": "haz", // Hazaragi
+  "HBN ": "amf", // Hammer-Banna
+  "HEI ": "hei", // Heiltsuk
+  "HER ": "her", // Herero
+  "HIL ": "hil", // Hiligaynon
+  "HIN ": "hi", // Hindi
+  "HMA ": "mrj", // High Mari
+  "HMD ": "hmd", // A-Hmao
+  "HMN ": "hmn", // Hmong
+  "HMO ": "hmo", // Hiri Motu
+  "HMZ ": "hmz", // Hmong Shuat
+  "HND ": "hno", // Hindko	, hnd
+  "HO ": "hoc", // Ho
+  "HRI ": "har", // Harari
+  "HRV ": "hr", // Croatian
+  "HUN ": "hu", // Hungarian
+  "HUR ": "hur", // Halkomelem
+  "HYE ": "hy", // Armenian	, hyw
+  HYE0: "hy", // Armenian East
+  "IBA ": "iba", // Iban
+  "IBB ": "ibb", // Ibibio
+  "IBO ": "ig", // Igbo
+  "IDO ": "ido", // Ido
+  "IJO ": "iby", // Ijo languages	, ijc, ije, ijn, ijo, ijs, nkx, okd, okr, orr
+  "ILE ": "ile", // Interlingue
+  "ILO ": "ilo", // Ilokano
+  "INA ": "ina", // Interlingua
+  "IND ": "in", // Indonesian
+  "ING ": "inh", // Ingush
+  "INU ": "iku", // Inuktitut
+  INUK: "ike", // Nunavik Inuktitut	, iku
+  "IPK ": "ik", // Inupiat
+  IPPH: "fonipa", // Phonetic transcription—IPA conventions	Cf. BCP 47 variant subtag “fonipa” (see https://www.iana.org/assignments/lang-subtags-templates/fonipa.txt)
+  "IRI ": "ga", // Irish
+  "IRT ": "ghc", // Irish Traditional	, gle
+  "IRU ": "iru", // Irula
+  "ISL ": "is", // Icelandic
+  "ISM ": "smn", // Inari Sami
+  "ITA ": "it", // Italian
+  "IWR ": "he", // Hebrew
+  "JAM ": "jam", // Jamaican Creole
+  "JAN ": "ja", // Japanese
+  "JAV ": "jv", // Javanese
+  "JBO ": "jbo", // Lojban
+  "JCT ": "jct", // Krymchak
+  "JDT ": "jdt", // Judeo-Tat
+  "JII ": "yid", // Yiddish
+  "JUD ": "lad", // Ladino
+  "JUL ": "dyu", // Jula
+  "KAB ": "kbd", // Kabardian
+  KAB0: "kab", // Kabyle
+  "KAC ": "kfr", // Kachchi
+  "KAL ": "kln", // Kalenjin
+  "KAN ": "kan", // Kannada
+  "KAR ": "krc", // Karachay
+  "KAT ": "ka", // Georgian
+  "KAW ": "kaw", // Kawi (Old Javanese)
+  "KAZ ": "kaz", // Kazakh
+  "KBC ": "kbc", // Kadiwéu
+  "KDE ": "kde", // Makonde
+  "KEA ": "kea", // Kabuverdianu (Crioulo)
+  "KEB ": "ktb", // Kebena
+  "KEK ": "kek", // Kekchi
+  "KGE ": "kat", // Khutsuri Georgian
+  "KGF ": "kgf", // Kube
+  "KHA ": "kjh", // Khakass
+  "KHK ": "kca", // Khanty-Kazim
+  "KHM ": "khm", // Khmer
+  "KHS ": "kca", // Khanty-Shurishkar
+  "KHT ": "kht", // Khamti Shan
+  "KHV ": "kca", // Khanty-Vakhi
+  "KHW ": "khw", // Khowar
+  "KIK ": "kik", // Kikuyu (Gikuyu)
+  "KIR ": "kir", // Kirghiz (Kyrgyz)
+  "KIS ": "kqs", // Kisii	, kss
+  "KIU ": "kiu", // Kirmanjki
+  "KJD ": "kjd", // Southern Kiwai
+  "KJJ ": "kjj", // Khinalug
+  "KJP ": "kjp", // Eastern Pwo Karen
+  "KJZ ": "kjz", // Bumthangkha
+  "KKN ": "kex", // Kokni
+  "KLM ": "xal", // Kalmyk
+  "KMB ": "kam", // Kamba
+  "KMG ": "kmg", // Kâte
+  "KMN ": "kfy", // Kumaoni
+  "KMO ": "kmw", // Komo
+  "KMS ": "kxc", // Komso
+  "KMZ ": "kmz", // Khorasani Turkic
+  "KNR ": "kau", // Kanuri
+  "KOD ": "kfa", // Kodagu
+  "KOH ": "kor", // Korean Old Hangul	, okm
+  "KOK ": "kok", // Konkani
+  "KOM ": "kom", // Komi
+  "KON ": "ktu", // Kikongo
+  KON0: "kon", // Kongo
+  "KOP ": "koi", // Komi-Permyak
+  "KOR ": "ko", // Korean
+  "KOS ": "kos", // Kosraean
+  "KOZ ": "kpv", // Komi-Zyrian
+  "KPL ": "kpe", // Kpelle
+  "KRI ": "kri", // Krio
+  "KRK ": "kaa", // Karakalpak
+  "KRL ": "krl", // Karelian
+  "KRM ": "kdr", // Karaim
+  "KRN ": "blk", // Karen	, bwe, eky, ghk, jkm, jkp, kar, kjp, kjt, ksw, kvl, kvq, kvt, kvu, kvy, kxf, kxk, kyu, pdu, pwo, pww, wea
+  "KRT ": "kqy", // Koorete
+  "KSH ": "kas", // Kashmiri
+  KSH0: "ksh", // Ripuarian
+  "KSI ": "kha", // Khasi
+  "KSM ": "sjd", // Kildin Sami
+  "KSU ": "ksu", // Khamyang
+  "KSW ": "ksw", // S’gaw Karen
+  "KUA ": "kua", // Kuanyama
+  "KUI ": "kxu", // Kui
+  "KUL ": "kfx", // Kulvi
+  "KUM ": "kum", // Kumyk
+  "KUR ": "ku", // Kurdish
+  "KUU ": "kru", // Kurukh
+  "KUY ": "kdt", // Kuy
+  "KVQ ": "kvq", // Geba Karen
+  "KWK ": "kwk", // Kwakʼwala
+  "KYK ": "kpy", // Koryak
+  "KYU ": "kyu", // Western Kayah
+  "LAD ": "lld", // Ladin
+  "LAH ": "bfu", // Lahuli
+  "LAK ": "lbe", // Lak
+  "LAM ": "lmn", // Lambani
+  "LAO ": "lao", // Lao
+  "LAT ": "la", // Latin
+  "LAZ ": "lzz", // Laz
+  "LCR ": "crm", // L-Cree
+  "LDK ": "lbj", // Ladakhi
+  "LEF ": "lef", // Lelemi
+  "LEZ ": "lez", // Lezgi
+  "LIJ ": "lij", // Ligurian
+  "LIM ": "li", // Limburgish
+  "LIN ": "lin", // Lingala
+  "LIS ": "lis", // Lisu
+  "LIV ": "liv", // Liv
+  "LJP ": "ljp", // Lampung
+  "LKI ": "lki", // Laki
+  "LMA ": "mhr", // Low Mari
+  "LMB ": "lif", // Limbu
+  "LMO ": "lmo", // Lombard
+  "LMW ": "ngl", // Lomwe
+  "LOM ": "lom", // Loma
+  "LPO ": "lpo", // Lipo
+  "LRC ": "lrc", // Luri	, luz, bqi, zum
+  "LSB ": "dsb", // Lower Sorbian
+  "LSM ": "smj", // Lule Sami
+  "LTH ": "lt", // Lithuanian
+  "LTZ ": "lb", // Luxembourgish
+  "LUA ": "lua", // Luba-Lulua
+  "LUB ": "lub", // Luba-Katanga
+  "LUG ": "lug", // Ganda
+  "LUH ": "luy", // Luyia
+  "LUO ": "luo", // Luo
+  "LUT ": "lut", // Lushootseed
+  "LVI ": "lv", // Latvian
+  "MAD ": "mad", // Madura
+  "MAG ": "mag", // Magahi
+  "MAH ": "mh", // Marshallese
+  "MAJ ": "mpe", // Majang
+  "MAK ": "vmw", // Makhuwa
+  "MAL ": "ml", // Malayalam
+  "MAM ": "mam", // Mam
+  "MAN ": "mns", // Mansi
+  "MAP ": "arn", // Mapudungun
+  "MAR ": "mar", // Marathi
+  "MAW ": "mwr", // Marwari	, dhd, rwr, mve, wry, mtr, swv
+  "MBN ": "kmb", // Mbundu
+  "MBO ": "mbo", // Mbo
+  "MCH ": "mnc", // Manchu
+  "MCR ": "crm", // Moose Cree
+  "MDE ": "men", // Mende
+  "MDR ": "mdr", // Mandar
+  "MEN ": "mym", // Me’en
+  "MER ": "mer", // Meru
+  "MEV ": "mev", // Mano
+  "MFA ": "mfa", // Pattani Malay
+  "MFE ": "mfe", // Morisyen
+  "MIN ": "min", // Minangkabau
+  "MIZ ": "lus", // Mizo
+  "MKD ": "mk", // Macedonian
+  "MKR ": "mak", // Makasar
+  "MKW ": "mkw", // Kituba
+  "MLE ": "mdy", // Male
+  "MLG ": "mg", // Malagasy
+  "MLN ": "mlq", // Malinke
+  "MLR ": "ml", // Malayalam Reformed
+  "MLY ": "msa", // Malay
+  "MND ": "mnk", // Mandinka
+  "MNG ": "mn", // Mongolian
+  "MNI ": "mni", // Manipuri
+  "MNK ": "man", // Maninka	, mnk, myq, mku, msc, emk, mwk, mlq
+  "MNX ": "glv", // Manx
+  "MOH ": "moh", // Mohawk
+  "MOK ": "mdf", // Moksha
+  "MOL ": "mo", // Moldavian
+  "MON ": "mnw", // Mon
+  MONT: "mnw", // Thailand Mon, See https://www.unicode.org/L2/L2020/20163-arakanese-mon.pdf
+  "MOR ": "", // Moroccan
+  "MOS ": "mos", // Mossi
+  "MRI ": "mi", // Maori
+  "MTH ": "mai", // Maithili
+  "MTS ": "mlt", // Maltese
+  "MUN ": "unr", // Mundari
+  "MUS ": "mus", // Muscogee
+  "MWL ": "mwl", // Mirandese
+  "MWW ": "mww", // Hmong Daw
+  "MYN ": "acr", // Mayan	, agu, caa, cac, cak, chf, ckz, cob, ctu, emy, hus, itz, ixl, jac, kek, kjb, knj, lac, mam, mhc, mop, myn, poc, poh, quc, qum, quv, toj, ttc, tzh, tzj, tzo, usp, yua
+  "MZN ": "mzn", // Mazanderani
+  "NAG ": "nag", // Naga-Assamese
+  "NAH ": "azd", // Nahuatl	, azn, azz, nah, naz, nch, nci, ncj, ncl, ncx, ngu, nhc, nhe, nhg, nhi, nhk, nhm, nhn, nhp, nhq, nht, nhv, nhw, nhx, nhy, nhz, nlv, npl, nsu, nuz
+  "NAN ": "gld", // Nanai
+  "NAP ": "nap", // Neapolitan
+  "NAS ": "nsk", // Naskapi
+  "NAU ": "nau", // Nauruan
+  "NAV ": "nav", // Navajo
+  "NCR ": "csw", // N-Cree
+  "NDB ": "nbl", // Ndebele	, nde
+  "NDC ": "ndc", // Ndau
+  "NDG ": "ndo", // Ndonga
+  "NDS ": "nds", // Low Saxon
+  "NEP ": "nep", // Nepali
+  "NEW ": "new", // Newari
+  "NGA ": "nga", // Ngbaka
+  "NGR ": "", // Nagari
+  "NHC ": "csw", // Norway House Cree
+  "NIS ": "dap", // Nisi	, njz, tgj
+  "NIU ": "niu", // Niuean
+  "NKL ": "nyn", // Nyankole
+  "NKO ": "nqo", // N’Ko
+  "NLD ": "nl", // Dutch
+  "NOE ": "noe", // Nimadi
+  "NOG ": "nog", // Nogai
+  "NOP ": "nop", // Numanggang
+  "NOR ": "no", // Norwegian
+  "NOV ": "nov", // Novial
+  "NSM ": "se", // Northern Sami
+  "NSO ": "nso", // Northern Sotho
+  "NTA ": "nod", // Northern Tai
+  "NTO ": "epo", // Esperanto
+  "NUK ": "nuk", // Nuu-chah-nulth
+  "NYM ": "nym", // Nyamwezi
+  "NYN ": "nno", // Norwegian Nynorsk (Nynorsk, Norwegian)
+  "NZA ": "nza", // Mbembe Tigon
+  "OCI ": "oci", // Occitan
+  "OCR ": "ojs", // Oji-Cree
+  "OJB ": "oji", // Ojibway
+  "ONE ": "one", // Oneida
+  "ONO ": "ono", // Onondaga
+  "ORI ": "ori", // Odia
+  "ORO ": "orm", // Oromo
+  "OSS ": "oss", // Ossetian
+  "PAA ": "sam", // Palestinian Aramaic
+  "PAG ": "pag", // Pangasinan
+  "PAL ": "pli", // Pali
+  "PAM ": "pam", // Pampangan
+  "PAN ": "pan", // Punjabi
+  "PAP ": "plp", // Palpa
+  PAP0: "pap", // Papiamentu
+  "PAS ": "pus", // Pashto
+  "PAU ": "pau", // Palauan
+  "PCC ": "pcc", // Bouyei
+  "PCD ": "pcd", // Picard
+  "PDC ": "pdc", // Pennsylvania German
+  "PGR ": "ell", // Polytonic Greek
+  "PHK ": "phk", // Phake
+  "PIH ": "pih", // Norfolk
+  "PIL ": "fil", // Filipino
+  "PLG ": "pce", // Palaung	, rbb, pll
+  PLG0: "plg", // Pilagá
+  "PLK ": "pl", // Polish
+  "PMS ": "pms", // Piemontese
+  "PNB ": "pnb", // Western Panjabi
+  "POH ": "poh", // Pocomchi
+  "PON ": "pon", // Pohnpeian
+  "PRO ": "pro", // Provençal / Old Provençal
+  "PTG ": "pt", // Portuguese
+  "PWO ": "pwo", // Western Pwo Karen
+  "QIN ": "bgr", // Chin	, biu, cek, cey, cfm, cbl, cka, ckn, clj, clt, cmr, cnb, cnh, cnk, cnw, csh, csj, csv, csy, ctd, cth, czt, dao, gnb, hlt, hmr, hra, lus, mrh, mwq, pck, pkh, pub, ral, rtc, sch, sez, shl, smt, tcp, tcz, vap, weu, zom, zyp
+  "QUC ": "quc", // K’iche’
+  "QUH ": "quh", // Quechua (Bolivia)
+  "QUZ ": "qu", // Quechua
+  "QVI ": "qu", // Quechua (Ecuador)
+  "QWH ": "qwh", // Quechua (Peru)
+  "RAJ ": "raj", // Rajasthani
+  "RAR ": "rar", // Rarotongan
+  "RBU ": "bxr", // Russian Buriat
+  "RCR ": "atj", // R-Cree
+  "REJ ": "rej", // Rejang
+  "RIA ": "ria", // Riang
+  "RHG ": "rhg", // Rohingya
+  "RIF ": "rif", // Tarifit
+  "RIT ": "rit", // Ritarungo
+  "RKW ": "rkw", // Arakwal
+  "RMS ": "rm", // Romansh
+  "RMY ": "rmy", // Vlax Romani
+  "ROM ": "ro", // Romanian
+  "ROY ": "rom", // Romany
+  "RSY ": "rue", // Rusyn
+  "RTM ": "rtm", // Rotuman
+  "RUA ": "kin", // Kinyarwanda
+  "RUN ": "run", // Rundi
+  "RUP ": "rup", // Aromanian
+  "RUS ": "ru", // Russian
+  "SAD ": "sck", // Sadri
+  "SAN ": "san", // Sanskrit
+  "SAS ": "sas", // Sasak
+  "SAT ": "sat", // Santali
+  "SAY ": "chp", // Sayisi
+  "SCN ": "scn", // Sicilian
+  "SCO ": "sco", // Scots
+  "SCS ": "scs", // North Slavey
+  "SEE ": "see", // Seneca
+  "SEK ": "xan", // Sekota
+  "SEL ": "sel", // Selkup
+  "SFM ": "sfm", // Small Flowery Miao
+  "SGA ": "mga", // Old Irish	, sga
+  "SGO ": "sag", // Sango
+  "SGS ": "sgs", // Samogitian
+  "SHI ": "shi", // Tachelhit
+  "SHN ": "shn", // Shan
+  "SIB ": "sjo", // Sibe
+  "SID ": "sid", // Sidamo
+  "SIG ": "xst", // Silte Gurage	, stv, wle
+  "SJA ": "sja", // Epena
+  "SJE ": "sje", // Pite Sami
+  "SJU ": "sju", // Ume Sami
+  "SKS ": "sms", // Skolt Sami
+  "SKY ": "sk", // Slovak
+  "SLA ": "den", // Slavey	, scs, xsl
+  "SLV ": "sl", // Slovenian
+  "SML ": "so", // Somali
+  "SMO ": "smo", // Samoan
+  "SNA ": "seh", // Sena
+  SNA0: "sna", // Shona
+  "SND ": "snd", // Sindhi
+  "SNH ": "sin", // Sinhala (Sinhalese)
+  "SNK ": "snk", // Soninke
+  "SOG ": "gru", // Sodo Gurage
+  "SOP ": "sop", // Songe
+  "SOT ": "sot", // Southern Sotho
+  "SQI ": "sq", // Albanian
+  "SRB ": "sr", // Serbian	, srp
+  "SRD ": "sc", // Sardinian
+  "SRK ": "skr", // Saraiki
+  "SRR ": "srr", // Serer
+  "SSL ": "xsl", // South Slavey
+  "SSM ": "sma", // Southern Sami
+  "STR ": "str", // Straits Salish
+  "STQ ": "stq", // Saterland Frisian
+  "SUK ": "suk", // Sukuma
+  "SUN ": "sun", // Sundanese
+  "SUR ": "suq", // Suri
+  "SVA ": "sva", // Svan
+  "SVE ": "sv", // Swedish
+  "SWA ": "aii", // Swadaya Aramaic
+  "SWK ": "swa", // Swahili
+  "SWZ ": "ssw", // Swati
+  "SXT ": "ngo", // Sutu	, xnj, xnq
+  "SXU ": "sxu", // Upper Saxon
+  "SYL ": "syl", // Sylheti
+  "SYR ": "aii", // Syriac	, amw, cld, syc, syr, tru
+  SYRE: "syc", // Syriac, Estrangela script-variant (equivalent to ISO 15924 'Syre')	, syr
+  SYRJ: "syc", // Syriac, Western script-variant (equivalent to ISO 15924 'Syrj')	, syr
+  SYRN: "syc", // Syriac, Eastern script-variant (equivalent to ISO 15924 'Syrn')	, syr
+  "SZL ": "szl", // Silesian
+  "TAB ": "tab", // Tabasaran
+  "TAJ ": "tgk", // Tajiki
+  "TAM ": "tam", // Tamil
+  "TAQ ": "taq", // Tamasheq, See also 'TMH '
+  "TAT ": "tat", // Tatar
+  "TBV ": "tbv", // Tobo
+  "TCR ": "cwd", // TH-Cree
+  "TDC ": "tdc", // Emberá-Tadó
+  "TDD ": "tdd", // Dehong Dai
+  "TEL ": "tel", // Telugu
+  "TET ": "tet", // Tetum
+  "TGL ": "tl", // Tagalog
+  "TGN ": "ton", // Tongan
+  "TGR ": "tig", // Tigre
+  "TGY ": "ti", // Tigrinya
+  "THA ": "th", // Thai
+  "THT ": "tah", // Tahitian
+  "THP ": "thp", // Thompson
+  "THV ": "thv", // Tahaggart Tamahaq, See also 'TMH '
+  "THZ ": "thz", // Tayart Tamajeq, See also 'TMH '
+  "TIB ": "bo", // Tibetan
+  "TIV ": "tiv", // Tiv
+  "TJL ": "tjl", // Tai Laing
+  "TKM ": "tk", // Turkmen
+  "TLI ": "tli", // Tlingit
+  "TMH ": "taq", // Tamashek, also thv, thz, tmh, ttq, See also 'TAQ ', 'THV ', 'THZ ', 'TTQ '
+  "TLY ": "tly", // Talysh
+  "TMN ": "tem", // Temne
+  "TNA ": "tsn", // Tswana
+  "TNE ": "enh", // Tundra Enets
+  "TNG ": "toi", // Tonga
+  "TOD ": "xal", // Todo
+  TOD0: "tod", // Toma
+  "TPI ": "tpi", // Tok Pisin
+  "TRK ": "tr", // Turkish
+  "TSG ": "ts", // Tsonga
+  "TSJ ": "tsj", // Tshangla
+  "TTQ ": "ttq", // Tawallammat Tamajaq, See also "TMH "
+  "TUA ": "tru", // Turoyo Aramaic
+  "TUL ": "tcy", // Tulu
+  "TUM ": "tum", // Tumbuka
+  "TUS ": "tus", // Tuscarora
+  "TUV ": "tyv", // Tuvin
+  "TVL ": "tvl", // Tuvalu
+  "TWI ": "twi", // Twi
+  "TYZ ": "tyz", // Tày
+  "TZM ": "tzm", // Tamazight
+  "TZO ": "tzo", // Tzotzil
+  "UDI ": "udi", // Udi
+  "UDM ": "udm", // Udmurt
+  "UKR ": "uk", // Ukrainian
+  "UMB ": "umb", // Umbundu
+  UPPH: "fonupa", // Uralic Phonetic Alphabet, Cf. BCP 47 variant subtag “fonupa” (see https://www.iana.org/assignments/lang-subtags-templates/fonupa.txt),
+  "URD ": "urd", // Urdu
+  "USB ": "hsb", // Upper Sorbian
+  "UYG ": "uig", // Uyghur
+  "UZB ": "uzb", // Uzbek
+  "VEC ": "vec", // Venetian
+  "VEN ": "ven", // Venda
+  "VIT ": "vi", // Vietnamese
+  "VOL ": "vol", // Volapük
+  "VRO ": "vro", // Võro
+  "WA ": "wbm", // Wa
+  "WAG ": "wbr", // Wagdi
+  "WAR ": "war", // Waray-Waray
+  "WBL ": "wbl", // Wakhi
+  "WCI ": "wci", // Waci Gbe
+  "WCR ": "crk", // West-Cree
+  "WDT ": "wdt", // Wendat
+  "WEL ": "cym", // Welsh
+  "WLF ": "wol", // Wolof
+  "WLN ": "wln", // Walloon
+  "WTM ": "wtm", // Mewati
+  "WYN ": "wyn", // Wyandot
+  "XBD ": "khb", // Lü
+  "XHS ": "xho", // Xhosa
+  "XJB ": "xjb", // Minjangbal
+  "XKF ": "xkf", // Khengkha
+  "XOG ": "xog", // Soga
+  "XPE ": "xpe", // Kpelle (Liberia)
+  "XUB ": "xub", // Bette Kuruma
+  "XUJ ": "xuj", // Jennu Kuruma
+  "YAK ": "sah", // Sakha
+  "YAO ": "yao", // Yao
+  "YAP ": "yap", // Yapese
+  "YBA ": "yor", // Yoruba
+  "YCR ": "crj", // Y-Cree, also "crk", "crl"
+  "YGP ": "ygp", // Gepo
+  "YIC ": "", // Yi Classic
+  "YIM ": "iii", // Yi Modern
+  "YNA ": "yna", // Aluo
+  "YUF ": "yuf", // Havasupai-Walapai-Yavapai
+  "YWQ ": "ywq", // Wuding-Luquan Yi
+  "ZEA ": "zea", // Zealandic
+  "ZGH ": "zgh", // Standard Moroccan Tamazight
+  "ZHA ": "zha", // Zhuang
+  "ZHH ": "zh", // Chinese, Traditional, Hong Kong SAR
+  "ZHP ": "zh", // Chinese, Phonetic
+  "ZHS ": "zh", // Chinese, Simplified
+  "ZHT ": "zh", // Chinese, Traditional
+  ZHTM: "zh-mo", // Chinese, Traditional, Macao SAR
+  "ZND ": "zne", // Zande
+  "ZUL ": "zu", // Zulu
+  "ZZA ": "zza", // Zazaki
+} as const;
